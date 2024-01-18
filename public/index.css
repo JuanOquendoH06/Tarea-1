@@ -3,7 +3,7 @@
     color: #ccc;
     padding: 10px;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
   }
   
   .navbar ul {
@@ -19,12 +19,12 @@
   
   .navbar li a {
     text-decoration: none;
-    color: #333;
+    color: #ccc;
     padding: 5px;
   }
   
   .navbar li a:hover {
-    color: #666;
+    color: #ccc;
   }
   .container {
     width: 100%;
