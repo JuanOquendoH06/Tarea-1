@@ -5,6 +5,14 @@
 body{
   margin: 0;
   padding: 0;
+  background-color: #333;
+  color: #ccc;
+  font-family: sans-serif;
+}
+
+img{
+  width: 100%;
+  height: 100%;
 }
 
 .cabecera {
@@ -14,6 +22,11 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 1.5rem;
+}
+
+.logo{
+  width: 10rem;
 }
 
 .cabecera ul {
@@ -40,6 +53,8 @@ body{
 .container {
   width: 100%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .block {
@@ -55,4 +70,72 @@ h2 {
 
 p {
   font-size: 16px;
+}
+
+.recode {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 1fr 2fr;
+  grid-template-areas: "title title"
+                       "logo description";
+  justify-items: center;                      
+  align-items: center;
+}
+
+.recode__title{
+  grid-area: title;
+}
+
+.recode__logo{
+  width: 12rem;
+  grid-area: logo;
+}
+
+.recode__description{
+  grid-area: description;
+}
+
+.creator{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 1fr 2fr;
+}
+
+.creator-oquendo{
+  grid-template-areas: "title title"
+                       "description photo";
+  justify-items: center;                      
+  align-items: center;
+  
+}
+
+/* .creator-oquendo .creator__title,
+.creator-oquendo .creator__photo{
+  justify-self: right;
+} */
+
+.creator-lopez{
+  grid-template-areas: "title title"
+                       "photo description";                      
+  justify-items: center;                      
+  align-items: center;
+}
+
+.creator__title{
+  grid-area: title;
+}
+
+.creator__descriptio{
+  grid-area: description;
+}
+
+.creator__photo{
+  width: 12rem;
+  height: 12rem;
+  grid-area: photo;
+}
+
+.creator__photo img{
+  border-radius: 50%;
 }
