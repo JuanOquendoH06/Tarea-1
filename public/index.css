@@ -23,3 +23,22 @@
   .navbar li a:hover {
     color: #666;
   }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .block {
+    width: 33%;
+    float: left;
+    padding: 10px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
