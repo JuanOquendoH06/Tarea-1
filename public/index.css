@@ -106,14 +106,8 @@ p {
   grid-template-areas: "title title"
                        "description photo";
   justify-items: center;                      
-  align-items: center;
-  
+  align-items: center; 
 }
-
-/* .creator-oquendo .creator__title,
-.creator-oquendo .creator__photo{
-  justify-self: right;
-} */
 
 .creator-lopez{
   grid-template-areas: "title title"
@@ -138,4 +132,8 @@ p {
 
 .creator__photo img{
   border-radius: 50%;
+}
+
+.technologies__image{
+  width: 12rem;
 }
