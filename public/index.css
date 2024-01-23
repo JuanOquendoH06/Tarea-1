@@ -97,9 +97,13 @@ p {
   grid-area: description;
 }
 
+<<<<<<< HEAD
 .creators {
   background: #3d3b3b;
 }
+=======
+
+>>>>>>> 9527347d33ce87056b83b50c2bd9a0fe95a282b2
 
 .creator {
   display: grid;
