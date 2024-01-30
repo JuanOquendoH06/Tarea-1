@@ -15,14 +15,14 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Creadores</a></li>
-        <li><a href="#">Tecnologías</a></li>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#creadores">Creadores</a></li>
+        <li><a href="#tecnologias">Tecnologías</a></li>
       </ul>
     </nav>
   </header>
   <main class="container">
-    <section class="recode">
+    <section class="recode" id="inicio">
       <h1 class="recode__title">Recode</h1>
       <div class="recode__logo">
         <img src="img/recode.webp" alt="logo recode">
@@ -34,7 +34,7 @@
         actualidad.</p>
 
     </section>
-    <section class="creators">
+    <section class="creators" id="creadores">
       <article class="creator creator-oquendo">
         <h2 class="creator__title">Sebastián Oquendo</h2>
         <div class="creator__photo">
@@ -54,20 +54,28 @@
           eius. Deserunt mollitia hic culpa.</p>
       </article>
     </section>
-    <section class="technologies">
-      <h2>Tecnologías</h2>
-      <div class="technologies__image">
-        <img src="img/html-5.png" alt="logo html">
+    <section class="technologies" id="tecnologias">
+      <h1>Tecnologías</h1>
+      <div class="technologies__containers">
+        <div class="technologies__image">
+          <img src="img/html-5.png" alt="logo html">        
+        </div>
         <p class="htmldes">HTML, acrónimo en inglés de HyperText Markup Language, hace referencia al lenguaje de marcado
           utilizado en la
           creación de páginas web. Este estándar que sirve de referencia del software que interactúa con la elaboración
           de páginas web en sus diferentes versiones.</p>
       </div>
-      <div class="technologies__image">
-        <img src="img/css.png" alt="logo html">
+      <div class="technologies__containers">
+        <div class="technologies__image">
+          <img src="img/css.png" alt="logo html">
+          
+        </div>
         <p class="htmldes">CSS, en español Hojas de estilo en cascada, es un lenguaje de diseño gráfico para definir y crear la
           presentación de un documento estructurado escrito en un lenguaje de marcado.</p>
+
       </div>
+
+
     </section>
   </main>
 </body>

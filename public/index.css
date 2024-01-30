@@ -23,6 +23,9 @@ img {
   justify-content: space-between;
   align-items: center;
   font-size: 1.5rem;
+  z-index: 1000;
+  top: 0;
+  position: sticky;
 }
 
 .logo {
@@ -55,6 +58,7 @@ img {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  
 }
 
 .block {
@@ -69,7 +73,7 @@ h2 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .recode {
@@ -99,6 +103,7 @@ p {
 
 .creators {
   background: #3d3b3b;
+  padding: 25px;
 }
 
 .creator {
@@ -125,7 +130,7 @@ p {
   grid-area: title;
 }
 
-.creator__descriptio {
+.creator__description {
   grid-area: description;
 }
 
@@ -140,7 +145,7 @@ p {
 }
 
 .technologies__image {
-  width: 12rem;
+  width: 200px;
 }
 
 
@@ -152,10 +157,22 @@ p {
 }
 
 .technologies__image img {
-  width: 50%;
+  height: 200px;
+  width: 500px;
 }
 
 .technologies__image p {
   width: 100%;
   float: right;
+}
+.htmldes{
+  grid-area: description;
+  
+}
+
+.technologies__containers{
+  display: flex;
+  width: auto;
+  margin-left: 30px;
+  margin-bottom: 50px;
 }
